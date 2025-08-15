@@ -7,3 +7,12 @@
 **/__pycache__/*
 
 
+# .gitignore
+
+# Ignore dataset folders to keep the repository lightweight.
+# The download script will create these folders for anyone who runs it.
+05_src/data/prices_csv/etfs/
+05_src/data/prices_csv/stocks/
+
+# Also ignore any temporary files the script might create
+05_src/data/prices_csv/temp_download/
